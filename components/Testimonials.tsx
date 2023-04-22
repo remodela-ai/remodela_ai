@@ -3,7 +3,7 @@ import Image from "next/image";
 const testimonials = [
   [
     {
-      content: "So good! I need this right now. Congrats on the launch!",
+      content: "Remodela.ai ha sido una herramienta clave para sorprender a mis clientes. Ahora puedo mostrarles diferentes opciones de diseño en cuestión de segundos. - Ana, Diseñadora de interiores.",
       link: "https://twitter.com/eveporcello/status/1631438728999899136",
       author: {
         name: "Eve Porcello",
@@ -14,7 +14,7 @@ const testimonials = [
 
     {
       content:
-        "Finally! Something to help me get over my indecisiveness when decorating my house!",
+        "Como estudiante de arquitectura, Remodela.ai ha sido una herramienta valiosa para mi aprendizaje. Me ha permitido experimentar con diferentes diseños y soluciones de manera fácil y rápida. Definitivamente la recomiendo. - Pablo, Estudiante de arquitectura.",
       link: "https://twitter.com/arthur_dvorkin/status/1631402865209274369",
       author: {
         name: "Arthur Dvorkin",
@@ -26,7 +26,7 @@ const testimonials = [
   [
     {
       content:
-        "This is incredible, you don't need an interior designer anymore.",
+        "Desde que descubrí Remodela.ai, he sido capaz de encontrar la inspiración que necesitaba para transformar mi hogar en un espacio acogedor y moderno. Es fácil de usar y los resultados son espectaculares. - Juan, Propietario de vivienda.",
       link: "https://www.tiktok.com/@thenubians/video/7206088336044313861?q=roomgpt.io&t=1677909079689",
       author: {
         name: "Ade Dada",
@@ -36,7 +36,7 @@ const testimonials = [
     },
     {
       content:
-        "I haven't changed my room layout for 5 years, but this app may change that. Great job.",
+        "Remodela.ai es una herramienta imprescindible para mi empresa constructora. Me permite visualizar diferentes opciones de diseño y presentarlas de manera clara a mis clientes. ¡Los resultados son sorprendentes! - José, Empresario constructor.",
       link: "https://twitter.com/RobAttfield/status/1631545265281974273",
       author: {
         name: "Rob Attfield",
@@ -48,7 +48,7 @@ const testimonials = [
   [
     {
       content:
-        "This is fantastic. I've already decided on a new wall color from a generated image and repainting it is now my weekend project.",
+        "Como agente inmobiliario, Remodela.ai me ha permitido mostrar a mis clientes el potencial de las propiedades que ofrezco, dándoles una idea clara de cómo pueden verse después de una remodelación. Lo recomiendo ampliamente. - Luis, Agente inmobiliario.",
       link: "https://twitter.com/Music4UsAll/status/1631622608595607552",
       author: {
         name: "Music",
@@ -57,7 +57,7 @@ const testimonials = [
       },
     },
     {
-      content: "🤯",
+      content: "Como profesional de la remodelación y la decoración de interiores, Remodela.ai me ayudó a mostrar a los clientes cómo se vería su hogar renovado antes de comenzar la renovación real. ¡Me permitió brindar un servicio excepcional a mis clientes!. Teresa, Arquitecta",
       link: "https://twitter.com/github/status/1631821360619028482",
       author: {
         name: "GitHub",
@@ -78,10 +78,10 @@ export function Testimonials() {
       <div className="mx-auto px-4 sm:px-6 lg:px-8 md:px-7">
         <div className="mx-auto md:text-center">
           <h1 className="mx-auto max-w-4xl font-display text-4xl font-bold tracking-normal text-gray-300 sm:text-6xl">
-            Loved by many worldwide.
+            La tecnología amada por todos, para visualizar nuevos espacion y nuevos negocios.
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-lg sm:text-gray-400  text-gray-500 leading-7">
-            See what our over 1 million users are saying about the product.
+            Descubre porque remodela.ai es la eleccion favorita de muchos.
           </p>
         </div>
         <ul

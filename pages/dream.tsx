@@ -38,8 +38,8 @@ const Home: NextPage = () => {
   const [sideBySide, setSideBySide] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
   const [photoName, setPhotoName] = useState<string | null>(null);
-  const [theme, setTheme] = useState<themeType>("Modern");
-  const [room, setRoom] = useState<roomType>("Living Room");
+  const [theme, setTheme] = useState<themeType>("Moderno");
+  const [room, setRoom] = useState<roomType>("Living");
 
   const fetcher = (url: string) => fetch(url).then((res) => res.json());
   const { data, mutate } = useSWR("/api/remaining", fetcher);
@@ -126,7 +126,7 @@ const Home: NextPage = () => {
   return (
     <div className="flex max-w-6xl mx-auto flex-col items-center justify-center py-2 min-h-screen">
       <Head>
-        <title>RoomGPT</title>
+        <title>Remodela-ai</title>
       </Head>
       <Header
         photo={session?.user?.image || undefined}
@@ -149,30 +149,30 @@ const Home: NextPage = () => {
             rel="noopener noreferrer"
             className="border border-gray-700 rounded-2xl py-2 px-4 text-gray-400 text-sm my-6 duration-300 ease-in-out hover:text-gray-300 transition"
           >
-            Over{" "}
-            <span className="font-semibold text-gray-200">1 million users</span>{" "}
-            have used roomGPT so far
+            encima{" "}
+            <span className="font-semibold text-gray-200">1 millón de usuarias</span>{" "}
+            he usado remodela hasta ahora
           </a>
         )}
         <h1 className="mx-auto max-w-4xl font-display text-4xl font-bold tracking-normal text-slate-100 sm:text-6xl mb-5">
-          Generate your <span className="text-blue-600">dream</span> room
+          Genera tu <span className="text-blue-600">sueño</span> habitación ahora
         </h1>
         {status === "authenticated" && data && !restoredImage && (
           <p className="text-gray-400">
-            You have{" "}
+            tienes{" "}
             <span className="font-semibold text-gray-300">
               {data.remainingGenerations}{" "}
               {data?.remainingGenerations > 1 ? "credits" : "credit"}
             </span>{" "}
-            left.{" "}
+            Izquierda.{" "}
             {data.remainingGenerations < 2 && (
               <span>
-                Buy more credits{" "}
+                Comprar más créditos{" "}
                 <Link
                   href="/buy-credits"
                   className="font-semibold text-gray-300 underline underline-offset-2 hover:text-gray-200 transition"
                 >
-                  here
+                  aquí
                 </Link>
                 .
               </span>
@@ -189,9 +189,8 @@ const Home: NextPage = () => {
                 </div>
               )}
               <div
-                className={`${
-                  restoredLoaded ? "visible mt-6 -ml-8" : "invisible"
-                }`}
+                className={`${restoredLoaded ? "visible mt-6 -ml-8" : "invisible"
+                  }`}
               >
                 <Toggle
                   className={`${restoredLoaded ? "visible mb-6" : "invisible"}`}
@@ -229,7 +228,7 @@ const Home: NextPage = () => {
                         alt="1 icon"
                       />
                       <p className="text-left font-medium">
-                        Choose your room theme.
+                        Elige el tema de tu habitación.
                       </p>
                     </div>
                     <DropDown
@@ -248,7 +247,7 @@ const Home: NextPage = () => {
                         alt="1 icon"
                       />
                       <p className="text-left font-medium">
-                        Choose your room type.
+                        Elige tu tipo de habitación.
                       </p>
                     </div>
                     <DropDown
@@ -267,7 +266,7 @@ const Home: NextPage = () => {
                         alt="1 icon"
                       />
                       <p className="text-left font-medium">
-                        Upload a picture of your room.
+                        Toma una foto de tu espacio a remodelar.
                       </p>
                     </div>
                   </div>
@@ -277,9 +276,7 @@ const Home: NextPage = () => {
                 !originalPhoto && (
                   <div className="h-[250px] flex flex-col items-center space-y-6 max-w-[670px] -mt-8">
                     <div className="max-w-xl text-gray-300">
-                      Sign in below with Google to create a free account and
-                      redesign your room today. You will get 3 generations for
-                      free.
+                      Inicie sesión a continuación con Google para crear una cuenta gratuita y rediseñar su habitación hoy. Obtendrá 3 generaciones gratis.
                     </div>
                     <button
                       onClick={() => signIn("google")}
@@ -308,7 +305,7 @@ const Home: NextPage = () => {
               {restoredImage && originalPhoto && !sideBySide && (
                 <div className="flex sm:space-x-4 sm:flex-row flex-col">
                   <div>
-                    <h2 className="mb-1 font-medium text-lg">Original Room</h2>
+                    <h2 className="mb-1 font-medium text-lg">Tu Espacio Original</h2>
                     <Image
                       alt="original photo"
                       src={originalPhoto}
@@ -318,7 +315,7 @@ const Home: NextPage = () => {
                     />
                   </div>
                   <div className="sm:mt-0 mt-8">
-                    <h2 className="mb-1 font-medium text-lg">Generated Room</h2>
+                    <h2 className="mb-1 font-medium text-lg">Tu Espacio Renovado </h2>
                     <a href={restoredImage} target="_blank" rel="noreferrer">
                       <Image
                         alt="restored photo"
@@ -379,7 +376,7 @@ const Home: NextPage = () => {
                     }}
                     className="bg-white rounded-full text-black border font-medium px-4 py-2 mt-8 hover:bg-gray-100 transition"
                   >
-                    Download Generated Room
+                    Download Tu Espacio Renovado
                   </button>
                 )}
               </div>

@@ -1,12 +1,12 @@
-# [roomGPT.io](https://roomGPT.io)
+# [remodela.ai](https://remodela.ai)
 
 This project generates new designs of your room with AI
 
-[![Room GPT](./public/screenshot.png)](https://roomGPT.io)
+[![Room GPT](./public/screenshot.png)](https://remodela.ai)
 
 ## How it works
 
-It uses an ML model called [ControlNet](https://github.com/lllyasviel/ControlNet) to generate variations of rooms. This application gives you the ability to upload a photo of any room, which will send it through this ML Model using a Next.js API route, and return your generated room. The ML Model is hosted on [Replicate](https://replicate.com) and [Upload](https://upload.io) is used for image storage. [Loops](https://loops.so/) is used for emails.
+It uses an ML model called [ControlNet](https://github.com/lllyasviel/ControlNet) to generate variations of rooms. This application gives you the ability to upload a photo of any room, which will send it through this ML Model using a Next.js API route, and return your Tu Espacio Renovado . The ML Model is hosted on [Replicate](https://replicate.com) and [Upload](https://upload.io) is used for image storage. [Loops](https://loops.so/) is used for emails.
 
 ## Running Locally
 

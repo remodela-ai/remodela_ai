@@ -23,7 +23,7 @@ export function RoomGeneration({
         <div className="sm:mt-0 mt-8">
           <h3 className="mb-1 font-medium text-lg">Generated</h3>
           <Image
-            alt="Generated room"
+            alt="Tu Espacio Renovado "
             width={400}
             height={400}
             src={generated}
