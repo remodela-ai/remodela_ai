@@ -23,22 +23,22 @@ export default function Dashboard({ rooms }: { rooms: Room[] }) {
       />
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-12 sm:mb-0 mb-8">
         <h1 className="mx-auto max-w-4xl font-display text-4xl font-bold tracking-normal text-slate-100 sm:text-6xl mb-5">
-          View your <span className="text-blue-600">room</span> generations
+          Ver tu <span className="text-blue-600">habitación</span> generaciones
         </h1>
         {rooms.length === 0 ? (
           <p className="text-gray-300">
-            You have no room generations. Generate one{" "}
+            No tienes generaciones de habitaciones. generar uno{" "}
             <Link
               href="/dream"
               className="text-blue-600 underline underline-offset-2"
             >
-              here
+              aquí
             </Link>
           </p>
         ) : (
           <p className="text-gray-300">
             Browse through your previous room generations below. Any feedback?
-            Email hassan@roomgpt.io
+            Email khannihar921@gmail.com
           </p>
         )}
         {rooms.map((room) => (

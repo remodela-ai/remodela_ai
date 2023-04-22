@@ -3,22 +3,22 @@ import Image from "next/image";
 const testimonials = [
   [
     {
-      content: "Remodela.ai ha sido una herramienta clave para sorprender a mis clientes. Ahora puedo mostrarles diferentes opciones de diseño en cuestión de segundos. - Ana, Diseñadora de interiores.",
+      content: "Remodela.ai ha sido una herramienta clave para sorprender a mis clientes. Ahora puedo mostrarles diferentes opciones de diseño en cuestión de segundos",
       link: "https://twitter.com/eveporcello/status/1631438728999899136",
       author: {
-        name: "Eve Porcello",
-        role: "Engineer & Author",
+        name: "Ana",
+        role: "Diseñadora de interiores.",
         image: "/eve.jpg",
       },
     },
 
     {
       content:
-        "Como estudiante de arquitectura, Remodela.ai ha sido una herramienta valiosa para mi aprendizaje. Me ha permitido experimentar con diferentes diseños y soluciones de manera fácil y rápida. Definitivamente la recomiendo. - Pablo, Estudiante de arquitectura.",
+        "Desde que descubrí Remodela.ai, he sido capaz de encontrar la inspiración que necesitaba para transformar mi hogar en un espacio acogedor y moderno. Es fácil de usar y los resultados son espectaculares",
       link: "https://twitter.com/arthur_dvorkin/status/1631402865209274369",
       author: {
-        name: "Arthur Dvorkin",
-        role: "Engineer",
+        name: "Juan",
+        role: "Propietario de vivienda.",
         image: "/arthur.jpg",
       },
     },
@@ -26,21 +26,21 @@ const testimonials = [
   [
     {
       content:
-        "Desde que descubrí Remodela.ai, he sido capaz de encontrar la inspiración que necesitaba para transformar mi hogar en un espacio acogedor y moderno. Es fácil de usar y los resultados son espectaculares. - Juan, Propietario de vivienda.",
+        "Como agente inmobiliario, Remodela.ai me ha permitido mostrar a mis clientes el potencial de las propiedades que ofrezco, dándoles una idea clara de cómo pueden verse después de una remodelación. Lo recomiendo ampliamente",
       link: "https://www.tiktok.com/@thenubians/video/7206088336044313861?q=roomgpt.io&t=1677909079689",
       author: {
-        name: "Ade Dada",
-        role: "Startup Founder",
+        name: "Luis",
+        role: "Agente inmobiliario.",
         image: "/ade.jpeg",
       },
     },
     {
       content:
-        "Remodela.ai es una herramienta imprescindible para mi empresa constructora. Me permite visualizar diferentes opciones de diseño y presentarlas de manera clara a mis clientes. ¡Los resultados son sorprendentes! - José, Empresario constructor.",
+        "Como estudiante de arquitectura, Remodela.ai ha sido una herramienta valiosa para mi aprendizaje. Me ha permitido experimentar con diferentes diseños y soluciones de manera fácil y rápida. Definitivamente la recomiendo",
       link: "https://twitter.com/RobAttfield/status/1631545265281974273",
       author: {
-        name: "Rob Attfield",
-        role: "Software Engineer",
+        name: "Pablo",
+        role: "Estudiante de arquitectura.",
         image: "/rob.jpg",
       },
     },
@@ -48,21 +48,21 @@ const testimonials = [
   [
     {
       content:
-        "Como agente inmobiliario, Remodela.ai me ha permitido mostrar a mis clientes el potencial de las propiedades que ofrezco, dándoles una idea clara de cómo pueden verse después de una remodelación. Lo recomiendo ampliamente. - Luis, Agente inmobiliario.",
+        "Remodela.ai es una herramienta imprescindible para mi empresa constructora. Me permite visualizar diferentes opciones de diseño y presentarlas de manera clara a mis clientes. ¡Los resultados son sorprendentes!",
       link: "https://twitter.com/Music4UsAll/status/1631622608595607552",
       author: {
-        name: "Music",
-        role: "Some dude on the internet",
+        name: "José",
+        role: "Empresario constructor.",
         image: "/music.jpg",
       },
     },
     {
-      content: "Como profesional de la remodelación y la decoración de interiores, Remodela.ai me ayudó a mostrar a los clientes cómo se vería su hogar renovado antes de comenzar la renovación real. ¡Me permitió brindar un servicio excepcional a mis clientes!. Teresa, Arquitecta",
+      content: "Como profesional de la remodelación y la decoración de interiores, Remodela.ai me ayudó a mostrar a los clientes cómo se vería su hogar renovado antes de comenzar la renovación real. ¡Me permitió brindar un servicio excepcional a mis clientes!",
       link: "https://twitter.com/github/status/1631821360619028482",
       author: {
-        name: "GitHub",
-        role: "The one and only",
-        image: "/github.jpg",
+        name: "Teresa",
+        role: "TArquitecta",
+        image: "/last.png",
       },
     },
   ],

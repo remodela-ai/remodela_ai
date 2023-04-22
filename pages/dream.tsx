@@ -138,9 +138,8 @@ const Home: NextPage = () => {
             href="/buy-credits"
             className="border border-gray-700 rounded-2xl py-2 px-4 text-gray-400 text-sm my-6 duration-300 ease-in-out hover:text-gray-300 hover:scale-105 transition"
           >
-            Pricing is now available.{" "}
-            <span className="font-semibold text-gray-200">Click here</span> to
-            buy credits!
+            El precio ya está disponible.{" "}
+            <span className="font-semibold text-gray-200">haga clic aquí</span> para comprar creditos!
           </Link>
         ) : (
           <a
@@ -288,7 +287,7 @@ const Home: NextPage = () => {
                         height={20}
                         alt="google's logo"
                       />
-                      <span>Sign in with Google</span>
+                      <span>Inicia sesión con Google</span>
                     </button>
                   </div>
                 )
