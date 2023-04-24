@@ -78,7 +78,7 @@ export function Testimonials() {
       <div className="mx-auto px-4 sm:px-6 lg:px-8 md:px-7">
         <div className="mx-auto md:text-center">
           <h1 className="mx-auto max-w-4xl font-display text-4xl font-bold tracking-normal text-gray-300 sm:text-6xl">
-            La tecnología amada por todos, para visualizar nuevos espacion y nuevos negocios.
+            La tecnología para visualizar nuevos espacios.
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-lg sm:text-gray-400  text-gray-500 leading-7">
             Descubre porque remodela.ai es la eleccion favorita de muchos.

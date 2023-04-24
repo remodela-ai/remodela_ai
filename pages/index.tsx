@@ -16,7 +16,7 @@ const Home: NextPage = () => {
 
       <Header />
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 sm:mt-20 mt-20 background-gradient">
-        <a
+        {/* <a
           href="https://vercel.fyi/roomGPT"
           target="_blank"
           rel="noreferrer"
@@ -24,14 +24,14 @@ const Home: NextPage = () => {
         >
           Clona e implementa la tuya con{" "}
           <span className="text-blue-600">Vercel</span>
-        </a>
+        </a> */}
         <h1 className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-normal text-gray-300 sm:text-7xl">
           Remodela tu espacio soñado{" "}
           <span className="relative whitespace-nowrap text-blue-600">
             <SquigglyLines />
             <span className="relative">usando AI</span>
           </span>{" "}
-          Tu remodelacion en segundos.
+          {/* Tu remodelacion en segundos. */}
         </h1>
         <h2 className="mx-auto mt-12 max-w-xl text-lg sm:text-gray-400  text-gray-500 leading-7">
           Toma una foto de tu espacio actual y consigue tu diseño de remodelacion en segundos.
