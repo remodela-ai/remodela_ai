@@ -21,6 +21,10 @@ export default async function handler(
   req: ExtendedNextApiRequest,
   res: NextApiResponse<GenerateResponseData | string>
 ) {
+
+  if (!process.env.REPLICATE_API_KEY) {
+    throw new Error("REPLICATE_API_KEY is not defined");
+  }
   // Check if user is logged in
   const session = await getServerSession(req, res, authOptions);
   if (!session || !session.user) {
@@ -86,9 +90,7 @@ export default async function handler(
         }),
       }
     );
-
     let jsonStartResponse = await startResponse.json();
-
     let endpointUrl = jsonStartResponse.urls.get;
     const originalImage = jsonStartResponse.input.image;
     const roomId = jsonStartResponse.id;
@@ -105,9 +107,8 @@ export default async function handler(
         },
       });
       let jsonFinalResponse = await finalResponse.json();
-
-      if (jsonFinalResponse.status === "succeeded") {
-        generatedImage = jsonFinalResponse.output[1] as string;
+      if (jsonFinalResponse.status === "succeeded" && jsonFinalResponse.output !== null && jsonFinalResponse.output.length > 0) {
+        generatedImage = jsonFinalResponse.output[0] as string;
       } else if (jsonFinalResponse.status === "failed") {
         break;
       } else {
@@ -136,10 +137,10 @@ export default async function handler(
     res.status(200).json(
       generatedImage
         ? {
-            original: originalImage,
-            generated: generatedImage,
-            id: roomId,
-          }
+          original: originalImage,
+          generated: generatedImage,
+          id: roomId,
+        }
         : "Failed to restore image"
     );
   } catch (error) {

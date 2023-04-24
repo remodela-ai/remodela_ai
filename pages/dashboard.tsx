@@ -37,8 +37,8 @@ export default function Dashboard({ rooms }: { rooms: Room[] }) {
           </p>
         ) : (
           <p className="text-gray-300">
-            Browse through your previous room generations below. Any feedback?
-            Email khannihar921@gmail.com
+            Navegue a través de las generaciones de habitaciones anteriores a continuación. ¿Cualquier retroalimentación?
+            Correo electrónico khannihar921@gmail.com
           </p>
         )}
         {rooms.map((room) => (

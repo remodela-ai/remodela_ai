@@ -38,8 +38,8 @@ const Home: NextPage = () => {
   const [sideBySide, setSideBySide] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
   const [photoName, setPhotoName] = useState<string | null>(null);
-  const [theme, setTheme] = useState<themeType>("Moderno");
-  const [room, setRoom] = useState<roomType>("Living");
+  const [theme, setTheme] = useState<themeType>("Modern");
+  const [room, setRoom] = useState<roomType>("Living Room");
 
   const fetcher = (url: string) => fetch(url).then((res) => res.json());
   const { data, mutate } = useSWR("/api/remaining", fetcher);
@@ -183,8 +183,8 @@ const Home: NextPage = () => {
             <motion.div className="flex justify-between items-center w-full flex-col mt-4">
               {restoredImage && (
                 <div>
-                  Here's your remodeled <b>{room.toLowerCase()}</b> in the{" "}
-                  <b>{theme.toLowerCase()}</b> theme!{" "}
+                  Aquí está su remodelado <b>{room.toLowerCase()}</b> en el{" "}
+                  <b>{theme.toLowerCase()}</b> ¡tema!{" "}
                 </div>
               )}
               <div
@@ -362,7 +362,7 @@ const Home: NextPage = () => {
                     }}
                     className="bg-blue-500 rounded-full text-white font-medium px-4 py-2 mt-8 hover:bg-blue-500/80 transition"
                   >
-                    Generate New Room
+                    Generar nueva sala
                   </button>
                 )}
                 {restoredLoaded && (
