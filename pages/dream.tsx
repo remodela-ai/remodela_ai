@@ -154,7 +154,7 @@ const Home: NextPage = () => {
           </a>
         )}
         <h1 className="mx-auto max-w-4xl font-display text-4xl font-bold tracking-normal text-slate-100 sm:text-6xl mb-5">
-          Genera tu <span className="text-blue-600">sueño</span> habitación ahora
+          Genera tu <span className="text-blue-600">Diseño</span>  ahora
         </h1>
         {status === "authenticated" && data && !restoredImage && (
           <p className="text-gray-400">
