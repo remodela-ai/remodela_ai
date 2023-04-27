@@ -61,7 +61,7 @@ export default async function handler(
   try {
     const { imageUrl, theme, room } = req.body;
     const prompt =
-      room === "Gaming Room"
+      room === "sala de juegos"
         ? "a video gaming room"
         : `a ${theme.toLowerCase()} ${room.toLowerCase()}`;
 

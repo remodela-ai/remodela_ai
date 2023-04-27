@@ -26,17 +26,17 @@ export default function Pricing() {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-4xl text-center">
             <p className="mt-2 text-4xl font-bold tracking-tight text-white sm:text-5xl">
-              Buy REMODELA.AI Credits
+              Compra Creditos
             </p>
           </div>
         </div>
         <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-500 mb-10">
-          You currently have{" "}
+          Tu Actualmente tienes{" "}
           <span className="font-semibold text-gray-400">
             {data?.remainingGenerations}{" "}
             {data?.remainingGenerations > 1 ? "credits" : "credit"}
           </span>
-          . Purchase more below.
+          . Compra más abajo.
         </p>
       </main>
       <div className="w-full">
@@ -52,7 +52,7 @@ export default function Pricing() {
       </div>
       <div className="mt-10 text-center">
         <h4 className="flex-none leading-6 mt-2 text-2xl font-bold tracking-tight text-white sm:text-5xl">
-          What’s included
+          Qué está incluido
         </h4>
       </div>
       <ul
@@ -88,7 +88,7 @@ export default function Pricing() {
               clip-rule="evenodd"
             />
           </svg>
-          Get more room styles and room types
+          Obtenga más estilos de habitación y tipos de habitación
         </li>
 
         <li className="flex gap-x-3">
@@ -104,7 +104,7 @@ export default function Pricing() {
               clip-rule="evenodd"
             />
           </svg>
-          Premium support by email
+          Soporte premium por correo electrónico
         </li>
 
         <li className="flex gap-x-3">
@@ -120,7 +120,7 @@ export default function Pricing() {
               clip-rule="evenodd"
             />
           </svg>
-          Ability to request features
+          Posibilidad de solicitar funciones
         </li>
         <li className="flex gap-x-3">
           <svg
@@ -135,7 +135,7 @@ export default function Pricing() {
               clip-rule="evenodd"
             />
           </svg>
-          Commercial usage of photos
+          Uso comercial de fotos.
         </li>
         <li className="flex gap-x-3">
           <svg
@@ -150,12 +150,13 @@ export default function Pricing() {
               clip-rule="evenodd"
             />
           </svg>
-          Early access to new features
+          Acceso anticipado a nuevas funciones
         </li>
       </ul>
       <p className="text-gray-400 mb-5">
-        Interested in team pricing or have any pricing questions? Email{" "}
-        <span className="text-gray-300">hassan@remodela.ai</span>
+        {/* Interested in team pricing or have any pricing questions? Email{" "} */} {" "}
+        ¿Está interesado en los precios del equipo o tiene alguna pregunta sobre los precios? Correo electrónico
+        <span className="text-gray-300">khannihar921@gmail.com</span>
       </p>
       <Footer />
     </div>

@@ -2,10 +2,10 @@ import Document, { Head, Html, Main, NextScript } from "next/document";
 
 class MyDocument extends Document {
   render() {
-    let description = "Genera tu diseño ahora in seconds.";
-    let ogimage = "https://www.roomgpt.io/og-image.png";
-    let sitename = "roomGPT.io";
-    let title = "Dream Room Generator";
+    let description = "Genera tu diseño ahora en segundos.";
+    let ogimage = "https://www.remodela.app/og-image1.png";
+    let sitename = "remodela.app";
+    let title = "Diseños Visuales";
 
     return (
       <Html lang="en">
