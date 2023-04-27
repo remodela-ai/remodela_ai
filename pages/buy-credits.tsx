@@ -72,10 +72,10 @@ export default function Pricing() {
               clip-rule="evenodd"
             />
           </svg>
-          Save your Tu Espacio Renovado
+          Descarge su espacio renovado
         </li>
 
-        <li className="flex gap-x-3">
+        {/* <li className="flex gap-x-3">
           <svg
             className="h-6 w-5 flex-none text-blue-500"
             viewBox="0 0 20 20"
@@ -89,7 +89,7 @@ export default function Pricing() {
             />
           </svg>
           Obtenga más estilos de habitación y tipos de habitación
-        </li>
+        </li> */}
 
         <li className="flex gap-x-3">
           <svg
@@ -107,7 +107,7 @@ export default function Pricing() {
           Soporte premium por correo electrónico
         </li>
 
-        <li className="flex gap-x-3">
+        {/* <li className="flex gap-x-3">
           <svg
             className="h-6 w-5 flex-none text-blue-500"
             viewBox="0 0 20 20"
@@ -121,7 +121,7 @@ export default function Pricing() {
             />
           </svg>
           Posibilidad de solicitar funciones
-        </li>
+        </li> */}
         <li className="flex gap-x-3">
           <svg
             className="h-6 w-5 flex-none text-blue-500"
@@ -137,7 +137,7 @@ export default function Pricing() {
           </svg>
           Uso comercial de fotos.
         </li>
-        <li className="flex gap-x-3">
+        {/* <li className="flex gap-x-3">
           <svg
             className="h-6 w-5 flex-none text-blue-500"
             viewBox="0 0 20 20"
@@ -151,12 +151,12 @@ export default function Pricing() {
             />
           </svg>
           Acceso anticipado a nuevas funciones
-        </li>
+        </li> */}
       </ul>
       <p className="text-gray-400 mb-5">
         {/* Interested in team pricing or have any pricing questions? Email{" "} */} {" "}
         ¿Está interesado en los precios del equipo o tiene alguna pregunta sobre los precios? Correo electrónico
-        <span className="text-gray-300">khannihar921@gmail.com</span>
+        <span className="text-gray-300">remodela.ai@gmail.com</span>
       </p>
       <Footer />
     </div>

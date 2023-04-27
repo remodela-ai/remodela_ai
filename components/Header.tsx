@@ -36,9 +36,20 @@ export default function Header({
           >
             <div>Compra creditos</div>
             <div className="text-blue-500 bg-blue-200 rounded-full px-2 text-xs flex justify-center items-center font-bold">
-            Nuevo
+              Nuevo
             </div>
           </Link>
+          {/* {
+            email === "khannihar921@gmail.com" ? (
+              <Link
+                href="/admin"
+                className="border-r border-gray-300 pr-4 flex space-x-2 hover:text-blue-400 transition"
+              >
+                <div>Admin</div>
+              </Link>
+            ) : null
+
+          } */}
           {photo ? (
             <Image
               alt="Profile picture"

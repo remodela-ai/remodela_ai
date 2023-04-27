@@ -31,7 +31,7 @@ const testimonials = [
       author: {
         name: "Luis",
         role: "Agente inmobiliario.",
-        image: "/ade.jpeg",
+        image: "/ade.jpg",
       },
     },
     {
@@ -41,7 +41,7 @@ const testimonials = [
       author: {
         name: "Pablo",
         role: "Estudiante de arquitectura.",
-        image: "/rob.jpg",
+        image: "/rob1.jpg",
       },
     },
   ],
