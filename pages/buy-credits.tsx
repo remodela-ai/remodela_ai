@@ -155,7 +155,7 @@ export default function Pricing() {
       </ul>
       <p className="text-gray-400 mb-5">
         {/* Interested in team pricing or have any pricing questions? Email{" "} */} {" "}
-        ¿Está interesado en los precios del equipo o tiene alguna pregunta sobre los precios? Correo electrónico
+        Esta interesado en un sistema de marca blanca para su empresa? Let's talk for  possible strategic aliance with remodela.ai. Email{" "}
         <span className="text-gray-300">remodela.ai@gmail.com</span>
       </p>
       <Footer />
