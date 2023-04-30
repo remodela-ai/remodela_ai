@@ -107,7 +107,7 @@ export default function Pricing() {
           Soporte premium por correo electrónico
         </li>
 
-        {/* <li className="flex gap-x-3">
+        <li className="flex gap-x-3">
           <svg
             className="h-6 w-5 flex-none text-blue-500"
             viewBox="0 0 20 20"
@@ -120,8 +120,9 @@ export default function Pricing() {
               clip-rule="evenodd"
             />
           </svg>
-          Posibilidad de solicitar funciones
-        </li> */}
+          PLAN SOCIO I : Acceso a financiamiento.
+
+        </li>
         <li className="flex gap-x-3">
           <svg
             className="h-6 w-5 flex-none text-blue-500"
@@ -137,7 +138,7 @@ export default function Pricing() {
           </svg>
           Uso comercial de fotos.
         </li>
-        {/* <li className="flex gap-x-3">
+        <li className="flex gap-x-3">
           <svg
             className="h-6 w-5 flex-none text-blue-500"
             viewBox="0 0 20 20"
@@ -150,12 +151,15 @@ export default function Pricing() {
               clip-rule="evenodd"
             />
           </svg>
-          Acceso anticipado a nuevas funciones
-        </li> */}
+          PLAN SOCIO II : Acceso a financiamiento y red de arquitecos
+
+        </li>
       </ul>
       <p className="text-gray-400 mb-5">
         {/* Interested in team pricing or have any pricing questions? Email{" "} */} {" "}
-        Esta interesado en un sistema de marca blanca para su empresa? coordinemos una reunion de 30 min para evaluar una posible alianza estrategica. Email{" "}
+        {/* Esta interesado en un sistema de marca blanca para su empresa? */}
+        Necesita informacion sobre planes "SOCIO" ?
+        Coordinemos una reunion de 30 min para evaluar una posible alianza estrategica. Email{" "}
         <span className="text-gray-300">remodela.ai@gmail.com</span>
       </p>
       <Footer />
